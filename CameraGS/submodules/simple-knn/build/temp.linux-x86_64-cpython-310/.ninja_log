@@ -1,0 +1,4 @@
+# ninja log v7
+2	26227	1760606606000000000	/gs/bs/tga-RLA/ljirong/Cameraman/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/simple_knn.o	63b2165245901fcf
+1	46302	1760606606000000000	/gs/bs/tga-RLA/ljirong/Cameraman/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/ext.o	570a76f963610a85
+4	68133	1760606606000000000	/gs/bs/tga-RLA/ljirong/Cameraman/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/spatial.o	c5778512c1e3a382

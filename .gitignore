@@ -1,0 +1,15 @@
+.locks/
+.vscode/
+**/__pycache__/
+camera_result/
+3DGS_scene/
+eval/
+OrientAnything/models--facebook--dinov2-large/
+OrientAnything/models--Viglong--Orient-Anything/
+fg_clip_base/
+baselines.py
+chatcam.py
+clip_siglip2.py
+preliminary.py
+resize.py
+visualize.ipynb
