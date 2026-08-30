@@ -17,6 +17,12 @@ To address this task, CapFrame grounds camera viewpoints from text instructions 
 
 ![Overview of CapFrame](assets/capframe.png)
 
+The following examples illustrate the camera refinement process and the resulting view sequence.
+
+<p align="center">
+  <img src="assets/demo.gif" width="100%">
+</p>
+
 ## ⚙️ Installation
 
 Clone the repository:
