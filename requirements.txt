@@ -1,4 +1,5 @@
 --extra-index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://pypi.nvidia.com
 
 torch==2.7.1+cu128
 torchvision==0.22.1+cu128
@@ -18,3 +19,10 @@ matplotlib
 onnxruntime
 rembg
 transformers==4.57.0
+plyfile
+gradio
+qwen-vl-utils==0.0.14
+scikit-learn
+requests
+cupy-cuda12x
+cuml-cu12
