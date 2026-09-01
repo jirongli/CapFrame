@@ -4,8 +4,7 @@ Jirong Li<sup>1</sup>, Satoshi Ikehata<sup>2,3</sup>, Shuhei Kurita<sup>1,3</sup
 
 <sup>1</sup> Institute of Science Tokyo  <sup>2</sup> DENSO IT Laboratory, Inc.  <sup>3</sup> National Institute of Informatics
 
-<!-- TODO: Add links to the project page, paper, and supplementary material. -->
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b)](ARXIV_URL) -->
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b)](https://arxiv.org/abs/2608.30342)
 [![Code](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/jirongli/CapFrame)
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://youtu.be/FaLQmc9m5jg)
 
@@ -107,7 +106,7 @@ If you find this work useful, we would appreciate a citation:
 @article{li2026capframe,
   title   = {CapFrame: Text-Instructed Viewpoint Grounding in 3D Gaussian Scenes via Geometric Pseudo Labels},
   author  = {Jirong Li, Satoshi Ikehata, Shuhei Kurita, Ikuro Sato},
-  journal = {arXiv preprint arXiv:xxxx.xxxxx},
+  journal = {arXiv preprint arXiv:2608.30342},
   year    = {2026}
 }
 ```
