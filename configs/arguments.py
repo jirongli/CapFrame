@@ -16,7 +16,7 @@ def main_args(parser: ArgumentParser):
     group.add_argument("--cam_rot_lr", default=0.007, type=float, help="learning rate of camera rotation delta")
     group.add_argument("--cam_trans_lr", default=0.005, type=float, help="learning rate of camera translation delta") 
     group.add_argument("--opt_steps", default=1500, type=int, help="optimization steps")
-    group.add_argument("--converge", default=1e-5, type=float, help="threshold for stopping") # 1e-4 or 1e-5
+    group.add_argument("--converge", default=1e-4, type=float, help="threshold for stopping") # 1e-4 or 1e-5
     # loss
     group.add_argument("--alpha", default=1.0, type=float, help="weight of orient loss")
     group.add_argument("--beta", default=1.0, type=float, help="weight of layout loss")

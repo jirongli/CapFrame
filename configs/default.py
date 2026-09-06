@@ -13,4 +13,4 @@ OUTPUT_PATH = {
 }
 
 # text
-USER_INPUT = {"user_input": "A photo shows the front view of a brown teddy bear, and it is in the center of the frame."}
+USER_INPUT = {"user_input": "The front view of a large brown teddy bear, and it is in the center of the frame. The camera looks slightly down at the bear."}
