@@ -38,8 +38,13 @@ class Optimizer():
         self.converge = args.converge
         # set cameras
         # starting point of GD
-        self.idx = random.randint(0, len(data) - 1)
-        info = data[self.idx]
+        max_score = max(cam["score"] for cam in init_cameras)
+        best_indices = [
+            idx for idx, cam in enumerate(init_cameras)
+            if cam["score"] == max_score
+        ]
+        self.idx = random.choice(best_indices)
+        info = init_cameras[self.idx]
         self.fx = info['fx']
         self.fy = info['fy']
         self.width = info['width']
@@ -49,7 +54,7 @@ class Optimizer():
         self.fovx = focal2fov(self.fx, self.width)
         self.fovy = focal2fov(self.fy, self.height)
         cameras = []
-        for cam in data:
+        for cam in init_cameras:
             R_mat = cam['rotation matrix']
             T_vec = cam['translation vector']
             c_id = cam['id']
@@ -136,7 +141,7 @@ class Optimizer():
                 if (i+1) % self.save_image_every == 0:
                         all_obj_opa = draw_opacity_map(opacity_map)
                         filename_alpha = f"alpha_iteration{i}.png"
-                        torchvision.utils.save_image(all_obj_opa, os.path.join(self.render_path, filename_alpha))
+                        # torchvision.utils.save_image(all_obj_opa, os.path.join(self.render_path, filename_alpha))
 
                 # compute loss
                 progress = min(args.opt_steps / (i+1), 1.0)

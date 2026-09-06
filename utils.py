@@ -43,7 +43,7 @@ def load_topk_cameras(topk_id:List[int], topk_score:List[int], json_path: str, i
             })
     
     if not selected_cameras:
-        raise ValueError(f"No cameras found for ids {cam_topk}")
+        raise ValueError(f"No cameras found for ids {topk_id}")
     return selected_cameras
 
 def resize_max_side(img: Image.Image, max_side: int = 1000) -> Image.Image:

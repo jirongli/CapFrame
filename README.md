@@ -63,11 +63,12 @@ Create a `3DGS_scene` directory in the root directory. Place the source images a
 │       └── sparse/
 └── output/
     └── <dataset>/<scene>/
+        ├── cfg_args
         ├── point_cloud/
         └── cameras.json
 ```
 
-For example, `<dataset>/<scene>` may be `lerf_ovs/teatime`. The `lerf_ovs` dataset is from [LERF](https://github.com/kerrj/lerf). Two example scenes from the `lerf_ovs` dataset are available for download [here](https://drive.google.com/file/d/1qlIm45IN_Fpe76RUcB6suh0NDmSAhpzT/view?usp=drive_link).
+For example, `<dataset>/<scene>` may be `lerf_ovs/teatime`. The `lerf_ovs` dataset is from [LERF](https://github.com/kerrj/lerf). Two example scenes from the `lerf_ovs` dataset are available for download [here](https://drive.google.com/file/d/13mJwD7qSEusNOBvYJ4BVlpTPPfBAJbfe/view?usp=drive_link).
 
 > **Note:** If the scene's up direction is not aligned with the negative Y-axis of the COLMAP coordinate, the 3D scene may be tilted. In this case, use COLMAP's `model_orientation_aligner` to perform Manhattan-world alignment.
 
